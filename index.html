@@ -9,6 +9,7 @@
   <!-- =====BOX ICONS===== -->
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
   <title>Sophia Clara As-Shopa</title>
 </head>
@@ -160,44 +161,144 @@
       </section>
       <center><h3 style="font-weight: var(--font-semi);" class="about__text">Here are a few past projects I've worked on</h3></center>
       <div class="work__container bd-grid">
-        <a href="" class="work__img">
+        <a href="#myModal" class="work__img" id="myBtn">
           <img src="assets/img/inventory.jpg" alt="">
           <h3 class="project-title">Inventory Management</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#exim" class="work__img" id="btn-exim">
           <img src="assets/img/log2.jpg" alt="">
           <h3 class="project-title">Export-Import System</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#sampling" class="work__img" id="btn-sampling">
           <img src="assets/img/lab.jpg" alt="">
           <h3 class="project-title">Sampling Analysis</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#monitoring" class="work__img" id="btn-monitoring">
           <img src="assets/img/monitoring.jpg" alt="">
           <h3 class="project-title">Monitoring Product</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#poring" class="work__img" id="btn-poring">
           <img src="assets/img/support.jpg" alt="">
           <h3 class="project-title">Repair Request Application</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#wms" class="work__img" id="btn-wms">
           <img src="assets/img/warehouse.jpg" alt="">
           <h3 class="project-title">Warehouse Management</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#legal" class="work__img" id="btn-logistic">
           <img src="assets/img/log4.jpg" alt="">
           <h3 class="project-title">Logistic Promotion Management</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#legal" class="work__img" id="btn-legal">
           <img src="assets/img/legal2.jpg" alt="">
           <h3 class="project-title">Legal and Decision Letter</h3>
         </a>
-        <a href="" class="work__img">
+        <a href="#aset_mng" class="work__img" id="btn-aset">
           <img src="assets/img/asset.jpg" alt="">
           <h3 class="project-title">Asset Management</h3>
         </a>
       </div>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Platform for Stock and Stuff Delivery</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/snsd.png" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="exim" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for Import and Export Shipping</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/shipexim.png" alt=""></img> 
+        </div>
+      </div>
+    </div>
+
+    <div id="sampling" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for Sampling Request & Analysis</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/qc.png" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="monitoring" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for Monitoring Orders in FNB Company</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/ro.png" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="poring" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for Repair Request</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/poring.png" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="wms" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for Loan and Warehouse Stock</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/wangi.jpeg" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="logistic" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for Logistic Promotion Management</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/lpm.jpeg" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="legal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <i class="close-text">*click outside to close</i>
+        <center><b><p class="modal-text">Application for recording legal opinion, contract letter, license letter</p></b></center>
+        <div class="modal-body">
+          <img src="assets/img/legal.png" alt=""></img>
+        </div>
+      </div>
+    </div>
+
+    <div id="aset_mng" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <center><b><p class="modal-text">Application for Asset Management</p></b></center>  
+        <div class="modal-body">
+          <img src="assets/img/pbe.jpeg" alt=""></img> 
+        </div>
+        <i class="close-text">*click outside to close</i>
+      </div>
+    </div>
 
     <!--===== CONTACT =====-->
     <section class="contact section" id="contact">
